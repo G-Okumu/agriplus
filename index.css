@@ -13,10 +13,11 @@ nav {
     padding-top: 2px;
     padding-bottom: 2px;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 7rem;
     padding-right: 10px;
 }
-#linktoco a{
+
+#linktoco a {
     font-size: x-large;
     font-weight: bold;
 }
@@ -25,27 +26,31 @@ nav ul {
     display: flex;
     list-style-type: none;
 }
-nav a{
+
+nav a {
     color: white;
     text-decoration: none;
 }
+
 #firstitem li {
     padding-left: 10px;
 }
 
-#getstarted{
-    background-color:  #ED661F;
+#getstarted {
+    background-color: #ED661F;
     padding: 10px;
 }
-#secondItem{
+
+#secondItem {
     display: flex;
     align-items: center;
 }
 
-#secondItem :first-child{
+#secondItem :first-child {
     padding-right: 10px;
 }
-.active{
+
+.active {
     text-decoration: 4px underline #ED661F;
     text-underline-offset: 8px;
 }
@@ -53,30 +58,31 @@ nav a{
 
 /* home page styles */
 
-#home{
-background-image: url("./images/image1.png");
-background-position: center;
-background-size: cover;
-width:100%;
-height: 100vh;
-display: flex;
-align-items: center;
+#home {
+    background-image: url("./images/image1.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
-#home > :nth-child(1) {
-    margin-left: 40px;
+#home> :nth-child(1) {
+    padding-left: 9rem;
 }
 
-#home > :nth-child(1) > :nth-child(1){
-    font-size: 40px;
+#home> :nth-child(1)> :nth-child(1) {
+    font-size: 36px;
     font-weight: 800;
 }
 
-#home > :nth-child(1) > :nth-child(2){
+#home> :nth-child(1)> :nth-child(2) {
     padding-bottom: 2rem;
     font-size: 20px;
 }
-#home a{
+
+#home a {
     background-color: #ED661F;
     padding: 20px;
     color: #fff;
@@ -84,5 +90,37 @@ align-items: center;
     font-weight: 800;
 }
 
+#why-exist {
+    display: flex;
+    align-items: center;
+    margin-top: 8rem;
+    padding-left: 9rem;
+    margin-bottom: 8rem;
 
+}
 
+.custom_head {
+    position: relative;
+    font-size: xx-large;
+}
+
+.custom_head:after {
+    content: '';
+    position: absolute;
+    width: 15%;
+    display: block;
+    height: 3px;
+    background-color: #ED661F;
+    bottom: -5px;
+}
+
+#why-exist p {
+    font-size: medium;
+    font-weight: 400;
+    width: 70%;
+}
+
+#why-exist,
+img {
+    margin-right: 2rem;
+}
