@@ -1,0 +1,53 @@
+body {
+    font-family: Poppins, Inter;
+    /* background: #ED661F; */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#linktoco a{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+#firstitem li {
+    padding-left: 10px;
+}
+
+#getstarted{
+    background-color:  #ED661F;
+    padding: 10px;
+}
+#secondItem{
+    display: flex;
+    align-items: center;
+}
+
+#secondItem :first-child{
+    padding-right: 10px;
+}
+.active{
+    text-decoration: 4px underline #ED661F;
+    text-underline-offset: 8px;
+}
+
+
