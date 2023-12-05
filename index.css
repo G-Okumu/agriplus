@@ -1,6 +1,5 @@
 body {
     font-family: Poppins, Inter;
-    /* background: #ED661F; */
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -23,6 +22,10 @@ nav {
     font-weight: bold;
 }
 
+#linktoco li :hover{
+    color: #ED661F;
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
@@ -42,6 +45,18 @@ nav a {
     padding: 10px;
 }
 
+
+.active {
+    text-decoration: 4px underline #ED661F;
+    text-underline-offset: 8px;
+}
+
+#firstitem :hover {
+    text-decoration: 4px underline #ED661F;
+    text-underline-offset: 8px;
+    color: #ED661F;
+}
+
 #secondItem {
     display: flex;
     align-items: center;
@@ -51,9 +66,8 @@ nav a {
     padding-right: 10px;
 }
 
-.active {
-    text-decoration: 4px underline #ED661F;
-    text-underline-offset: 8px;
+#secondItem :first-child :hover{
+    color: #ED661F;
 }
 
 
@@ -89,6 +103,33 @@ nav a {
     color: #fff;
     font-size: x-large;
     font-weight: 800;
+}
+
+/* small card overlay css */
+
+#overlay {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    position: relative;
+}
+
+
+#overlay-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    background-color: white;
+}
+
+#overlay-card div {
+    padding: 40px;
+}
+
+
+
+#overlay-card strong {
+    display: block;
+    text-align: center;
 }
 
 #why-exist {
@@ -227,6 +268,7 @@ figure p {
     font-weight: bolder;
     font-size: 30px;
 }
+
 #customers {
     height: auto;
     padding-top: 20px;
