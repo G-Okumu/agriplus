@@ -30,4 +30,4 @@
 2. CSS 3
 3. Font Awesome Icons(Make sure you download it from them website)
 
-<em>Incase you need mentoring in Frontend Development or need priducts to be built, reach out to me via[email](gokumu368@gmail.com) or [LinkedIn](https://www.linkedin.com/in/george-okumu-378997195/)</em>
+<em>If you require guidance in Frontend Development or seek assistance in the creation of products, please feel free to contact me. I am here to provide support and expertise in these areas. via [email](gokumu368@gmail.com) or [LinkedIn](https://www.linkedin.com/in/george-okumu-378997195/)</em>
