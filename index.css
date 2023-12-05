@@ -162,10 +162,11 @@ img {
 
 }
 
-#products_paragraph{
+#products_paragraph {
     text-align: center;
 }
-#products_paragraph > p {
+
+#products_paragraph>p {
     display: inline-block;
     width: 50%;
 }
@@ -180,15 +181,16 @@ img {
     margin-left: 8rem;
 }
 
-figure{
+figure {
     margin-left: 0px;
 }
 
-figure strong, figure p{
+figure strong,
+figure p {
     font-size: 10px;
 }
 
-#see_all_p{
+#see_all_p {
     /* float: right; */
     /* margin-right: 4rem; */
     display: flex;
@@ -196,10 +198,11 @@ figure strong, figure p{
     font-weight: bold;
 }
 
-#see_all_p :nth-child(1){
+#see_all_p :nth-child(1) {
     position: relative;
 }
-#see_all_p :nth-child(1)::after{
+
+#see_all_p :nth-child(1)::after {
     content: '';
     position: absolute;
     width: 50%;
@@ -211,7 +214,7 @@ figure strong, figure p{
 
 
 
-#see_all_p :nth-child(2){
+#see_all_p :nth-child(2) {
     color: #ED661F;
     font-size: 2.5rem;
     font-weight: bolder;
@@ -219,28 +222,67 @@ figure strong, figure p{
 
 /* footer css */
 
-hr{
+hr {
     height: 20px;
     background-color: rgb(182, 180, 180);
 }
 
-footer{
+#get-in-touch {
+    background-color: black;
+    color: white;
+    margin-bottom: 4px;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#get-in-touch>div {
+    text-align: center;
+
+}
+
+#input {
+    display: flex;
+}
+
+#input input {
+    background-color: white;
+    color: gray;
+    padding: 10px 0px 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline-style: none;
+}
+
+#input button {
+    background-color: #ED661F;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+}
+
+footer {
     background-color: black;
     color: white;
     padding-top: 4rem;
     padding-bottom: 2rem;
 }
 
-footer > div{
+footer>div {
     display: flex;
     justify-content: space-evenly;
 }
 
-#footer-company{
+#footer-company {
     display: grid;
     grid-template-columns: auto auto auto auto;
     column-gap: 60px;
 }
+
 #footer-company ul {
     list-style-type: none;
     margin: 0;
@@ -251,15 +293,15 @@ footer > div{
     padding-top: 10px;
 }
 
-footer > p {
+footer>p {
     text-align: center;
     font-weight: 900;
 }
 
-#social-media i{
-padding: 30px 10px 30px 0px;
+#social-media i {
+    padding: 30px 10px 30px 0px;
 }
 
-#download-icons{
+#download-icons {
     display: flex;
 }
