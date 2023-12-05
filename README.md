@@ -8,7 +8,7 @@
 
 <i>⚠⚠⚠ Disclaimer!!! ⚠⚠⚠⚠</i>
 <p>This website is only fit for screens 1200px and above.<p>
-<em>The product isn't response</em>
+<em>The product isn't responsive</em>
 <hr>
 
 <i>♥♥♥♥♥ Try out your luck by cloning it and make it responsive. ♥♥♥♥♥</i>
