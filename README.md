@@ -1,15 +1,16 @@
 # AgriPlus Website
 
+<i>⚠⚠⚠ Disclaimer!!! ⚠⚠⚠⚠</i>
+<p>This website is only fit for screens 1200px and above.<p>
+<em>The product isn't responsive</em>
+<hr>
+
 ![AgriPlus Website](./images/lpip.png)
 
 
 <q>This is a static website, build for educational purposes on CSS and HTML.</q>
 <hr>
 
-<i>⚠⚠⚠ Disclaimer!!! ⚠⚠⚠⚠</i>
-<p>This website is only fit for screens 1200px and above.<p>
-<em>The product isn't responsive</em>
-<hr>
 
 <i>♥♥♥♥♥ Try out your luck by cloning it and make it responsive. ♥♥♥♥♥</i>
 
